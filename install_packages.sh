@@ -2,6 +2,7 @@
 
 # List the packages
 packages='
+    encfs
     gimp
     git
     gnome-tweaks
@@ -16,3 +17,11 @@ packages='
 
 # Install the packages
 sudo apt install ${packages}
+
+# Snap packages
+snap_packages='
+    spotify
+'
+
+# Install the snap packages
+sudo snap install ${snap_packages}
